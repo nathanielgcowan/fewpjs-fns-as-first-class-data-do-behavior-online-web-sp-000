@@ -8,7 +8,7 @@ function handleClick(e) {
 }
 
 function greeting(time){
-  
+
 }
 
 /* End Given Code, don't edit above here...*/
