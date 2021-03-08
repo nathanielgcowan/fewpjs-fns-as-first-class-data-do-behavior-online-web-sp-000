@@ -7,11 +7,10 @@ function handleClick(e) {
   displayMessage(greet(timeString))
 }
 
-function greeting(time){
-  is (time < 12) return "Good Morning"
-  if (time > 12) return "Good Evening"
-  return "Good Afternoon"
-}
+const hour = parseInt(time, 10)
+if (hour < 12) return "Good Morning"
+if (hour > 17) return "Good Evening"
+return "Good Afternoon"
 
 /* End Given Code, don't edit above here...*/
 
