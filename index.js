@@ -10,7 +10,7 @@ function handleClick(e) {
 function greeting(time){
   is (time < 12) return "Good Morning"
   if (time > 12) return "Good Evening"
-  returng "Good Afternoon"
+  return "Good Afternoon"
 }
 
 /* End Given Code, don't edit above here...*/
